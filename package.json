@@ -1,0 +1,11 @@
+{
+  "name": "xspark-food",
+  "version": "1.0.0",
+  "description": "xSpark-food app with node express by skDoDesign.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "skDoDesign",
+  "license": "ISC"
+}
