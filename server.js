@@ -4,10 +4,14 @@ import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import testRoutes from "./routes/testRoutes.js";
+import { connectDb } from "./config/db.js";
 
 ///dotenv configuration
 // dotenv.config({ path: "./" });
 dotenv.config();
+
+///DB Connection
+connectDb()
 
 ///Rest Ojbject
 const app = express();

@@ -1,4 +1,5 @@
 const testUserController = (req, res) => {
+  ///Synchronous error handleing(basic)
   try {
     res.status(200).send({
       success: true,
