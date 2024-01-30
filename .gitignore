@@ -1,0 +1,93 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Environment
+.env
+
+# Dependency directories
+lib/
+dist/
+.idea/
+.vscode/
+
+# dotenv environment file
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Yarn
+yarn-error.log
+
+# ESLint
+/.eslintcache
+
+# Prettier
+/prettier.config.js
+.prettierignore
+
+# coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output/
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt/
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript output directory
+/dist/
+
+# .vscode directory
+.vscode/
+
+# .idea directory
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Vim
+*.swp
+.swp
+
+# Windows
+desktop.ini
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js runtime file
+npm-debug.log
