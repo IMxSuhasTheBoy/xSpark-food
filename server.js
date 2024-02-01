@@ -11,7 +11,7 @@ import { connectDb } from "./config/db.js";
 dotenv.config();
 
 ///DB Connection
-connectDb()
+connectDb();
 
 ///Rest Ojbject
 const app = express();
